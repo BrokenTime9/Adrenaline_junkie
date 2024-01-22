@@ -1,0 +1,52 @@
+.image {
+  height: 80vh;
+}
+/*                adding image */
+.image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("philipp-kammerer-6Mxb_mZ_Q8E-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* -------------------image text----------------------- */
+
+.img-text h1 {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  font-size: 55px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.img-text span {
+  color: rgb(220, 220, 220);
+}
+
+.img-text a {
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+  left: 20px;
+  top: 7px;
+}
+
+/* learn more border */
+
+.img-text a {
+  border: 1px solid #fff;
+  font-weight: lighter;
+  border-radius: 20px;
+  padding: 7px;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  color: white;
+}
+
+/* learn more hover */
+
+.img-text a:hover {
+  background-color: white;
+  color: black;
+}
