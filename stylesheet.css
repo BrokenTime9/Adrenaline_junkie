@@ -6,3 +6,8 @@
 .main {
   height: 10vh;
 }
+
+@font-face {
+  font-family: rethink-semibold;
+  src: url(Adrenaline_junkie\fonts\rethink-sans\ttf\RethinkSans-SemiBold.ttf);
+}

@@ -17,7 +17,7 @@
   left: 15%;
   font-size: 55px;
   color: #fff;
-  font-family: sans-serif;
+  font-family: rethink-semibold, sans-serif;
 }
 
 .img-text span {
@@ -49,4 +49,14 @@
 .img-text a:hover {
   background-color: white;
   color: black;
+}
+
+/* font awesome configure */
+
+.img-text a i {
+  text-align: center;
+  padding: 2px;
+  position: relative;
+  top: 2px;
+  left: 2px;
 }
