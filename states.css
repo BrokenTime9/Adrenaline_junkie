@@ -79,14 +79,24 @@
   bottom: 50%;
   left: 9%;
   font-family: rethink-semibold;
+  transition: all 1s;
 }
 
-.state-card-text {
+.state-card-text h1 {
   position: absolute;
-  top: 30%;
+  bottom: 140px;
+  width: 400px;
+  left: 40px;
+  transform: translateY(100%);
 }
 .state-card-text p {
-  margin-top: 20px;
+  position: absolute;
+
+  bottom: 80px;
+  transform: translateY(100%);
+
+  width: 700px;
+  left: 40px;
 }
 
 /* -------------------------------------------------state card---------------------------------------------*/
@@ -104,6 +114,7 @@
 
 #himachal {
   background-image: url(Images/india-states/himachal.jpg);
+  box-shadow: 0 10px 10px 1px #00000030;
 }
 
 .card2 {
@@ -120,6 +131,7 @@
 
 #uttar {
   background-image: url(Images/india-states/uttarakhand.jpg);
+  box-shadow: 0 10px 10px 1px #00000030;
 }
 
 .card3 {
@@ -135,6 +147,7 @@
 }
 #aruna {
   background-image: url(Images/india-states/arunachal.jpg);
+  box-shadow: 0 10px 10px 1px #00000030;
 }
 
 .card4 {
@@ -151,6 +164,7 @@
 }
 #delh {
   background-image: url(Images/india-states/delhi.jpg);
+  box-shadow: 0 10px 10px 1px #00000030;
 }
 .card5 {
   height: 320px;
@@ -166,6 +180,7 @@
 }
 #rajas {
   background-image: url(Images/india-states/rajasthan.jpg);
+  box-shadow: 0 10px 10px 1px #00000030;
 }
 
 .card6 {
@@ -182,6 +197,7 @@
 }
 #punj {
   background-image: url(Images/india-states/punjab.jpg);
+  box-shadow: 0 10px 10px 1px #00000030;
 }
 /* -----------------------------------------Buttons-------------------------------------------------------------- */
 

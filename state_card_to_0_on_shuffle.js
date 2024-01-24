@@ -20,7 +20,7 @@ function himachalPradesh() {
   // ---inner text---------------
   document.getElementById("state-info-h").innerText = "Himachal Pradesh";
   document.getElementById("state-info-p").innerText =
-    "Himachal Pradesh occupies a region of scenic splendour in the western\n Himalayas, offering a multitextured display of lofty snow-clad\n mountains, deep gorges, thickly forested valleys, large lakes,\n terraced fields, and cascading streams.";
+    "Himachal occupies a region of scenic splendour in the western\n Himalayas, offering a multitextured display of lofty snow-clad\n mountains, deep gorges, thickly forested valleys, large lakes,\n terraced fields, and cascading streams.";
 }
 
 // -----------------------------Uttarakhand
@@ -44,6 +44,8 @@ function uttarakhand() {
 
   // ---inner text---------------
   document.getElementById("state-info-h").innerText = "Uttarakhand";
+  document.getElementById("state-info-p").innerText =
+    "Uttarakhand has a highly varied topography, with snow-covered \n peaks, glaciers, deep canyons, roaring streams, beautiful lakes, and\n a few patches of dusty plains in the south. ";
 }
 // -----------------------------Arunachal
 function arunachal() {
@@ -66,6 +68,8 @@ function arunachal() {
 
   // ---inner text---------------
   document.getElementById("state-info-h").innerText = "Arunachal Pradesh";
+  document.getElementById("state-info-p").innerText =
+    "Arunachal Pradeshs diverse terrain, climate, and soils are reflected \n in its fauna and flora. About two-thirds of the state is forested,\n with a wide belt of swampy rainforest lying along the foothills.";
 }
 // ---------------------------Delhi
 function delhi() {
@@ -88,6 +92,8 @@ function delhi() {
 
   // ---inner text---------------
   document.getElementById("state-info-h").innerText = "Delhi";
+  document.getElementById("state-info-p").innerText =
+    "Delhi has been the centre of a succession of mighty empires and powerful\n kingdoms. Numerous ruins scattered throughout the territory offer\n a constant reminder of the areas history.";
 }
 // ---------------------------Rajasthan
 function rajasthan() {
@@ -110,6 +116,8 @@ function rajasthan() {
 
   // ---inner text---------------
   document.getElementById("state-info-h").innerText = "Rajasthan";
+  document.getElementById("state-info-p").innerText =
+    "Rajasthan, meaning “The Abode of the Rajas,” was formerly called Rajputana,\n “The Country of the Rajputs” \nMost of Rajasthans population consists of Indians of various social,\n occupational, and religious backgrounds. \nThe Rajputs (various clans of landowning rulers and their descendants)";
 }
 // ---------------------------Punjab
 function punjab() {
@@ -132,4 +140,6 @@ function punjab() {
 
   // ---inner text---------------
   document.getElementById("state-info-h").innerText = "Punjab";
+  document.getElementById("state-info-p").innerText =
+    "The word Punjab is a compound of two Persian words,\n panj (“five”) and āb (“water”),\n thus signifying the land of five waters, or five rivers\n (the Beas, Chenab, Jhelum, Ravi, and Sutlej). ";
 }
