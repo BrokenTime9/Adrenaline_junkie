@@ -24,6 +24,7 @@
 .item {
   color: white;
   border-radius: 3%;
+  transition: all 1s;
 }
 
 .item a {
@@ -78,8 +79,6 @@
   background-image: url("Images/india-distributed/North-india.jpg");
   background-size: cover;
   background-position: center;
-  transition-property: background-image;
-  transition-duration: 1s;
 }
 
 .east-india {
@@ -100,7 +99,6 @@
 
 /* ---------------------------------------------card hover blackening effect----------------------------------------- */
 
-/* .east-india:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("Images/East-india.jpg");
-} */
+.item:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
