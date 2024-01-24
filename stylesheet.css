@@ -58,3 +58,13 @@
 }
 
 /* ----------------------------javascript animations (Text on)----------------------------------------- */
+
+.opacity0 {
+  opacity: 0;
+
+  transition: all 1s;
+}
+
+.opacity1 {
+  opacity: 1;
+}
