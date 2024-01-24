@@ -32,6 +32,11 @@
   font-family: rethink-regular;
   src: url(fonts/rethink-sans/ttf/RethinkSans-Regular.ttf);
 }
+
+@font-face {
+  font-family: iceland;
+  src: url(fonts/iceland/Iceland-Regular.ttf);
+}
 /* ----------------------------javascript animations (blur and transition)----------------------------------------- */
 
 .hidden {
