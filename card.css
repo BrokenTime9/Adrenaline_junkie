@@ -75,7 +75,7 @@
 /* ------------------------------------Card Images-------------------------------------------- */
 
 .north-india {
-  background-image: url("Images/North-india.jpg");
+  background-image: url("Images/india-distributed/North-india.jpg");
   background-size: cover;
   background-position: center;
   transition-property: background-image;
@@ -83,17 +83,17 @@
 }
 
 .east-india {
-  background-image: url("Images/East-india.jpg");
+  background-image: url("Images/india-distributed/East-india.jpg");
   background-size: cover;
   background-position: center;
 }
 .west-india {
-  background-image: url("Images/West-india.jpg");
+  background-image: url("Images/india-distributed/West-india.jpg");
   background-size: cover;
   background-position: center;
 }
 .south-india {
-  background-image: url("Images/South-india.jpg");
+  background-image: url("Images/india-distributed/South-india.jpg");
   background-size: cover;
   background-position: center;
 }
