@@ -43,13 +43,23 @@
 .hidden {
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(-1%);
+  transform: translateX(-5%);
+  transition: all 1s;
 }
 
 .show {
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .hidden {
+    opacity: 1;
+  }
+
+  .show {
+    opacity: 1;
+  }
 }
 
 .cards:nth-child(2) {
@@ -72,4 +82,13 @@
 
 .opacity1 {
   opacity: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .opacity0 {
+    opacity: 1;
+  }
+
+  .opacity1 {
+    opacity: 1;
+  }
 }
