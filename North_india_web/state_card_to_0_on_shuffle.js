@@ -20,7 +20,7 @@ function himachalPradesh() {
   // ---inner text---------------
   document.getElementById("state-info-h").innerText = "Himachal Pradesh";
   document.getElementById("state-info-p").innerText =
-    "Himachal occupies a region of scenic splendour in the western\n Himalayas, offering a multitextured display of lofty snow-clad\n mountains, deep gorges, thickly forested valleys, large lakes,\n terraced fields, and cascading streams.";
+    "Himachal Pradesh occupies a region of scenic splendour in the western\n Himalayas, offering a multitextured display of lofty snow-clad\n mountains, deep gorges, thickly forested valleys, large lakes,\n terraced fields, and cascading streams.";
 }
 
 // -----------------------------Uttarakhand
@@ -69,7 +69,7 @@ function arunachal() {
   // ---inner text---------------
   document.getElementById("state-info-h").innerText = "Arunachal Pradesh";
   document.getElementById("state-info-p").innerText =
-    "Arunachal Pradeshs diverse terrain, climate, and soils are reflected \n in its fauna and flora. About two-thirds of the state is forested,\n with a wide belt of swampy rainforest lying along the foothills.";
+    "Arunachal Pradesh's diverse terrain, climate, and soils are reflected \n in its fauna and flora. About two-thirds of the state is forested,\n with a wide belt of swampy rainforest lying along the foothills.";
 }
 // ---------------------------Delhi
 function delhi() {
