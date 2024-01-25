@@ -27,3 +27,9 @@ const observerOpacity = new IntersectionObserver((entries) => {
 
 const opacityElements = document.querySelectorAll(".opacity0");
 opacityElements.forEach((el) => observerOpacity.observe(el));
+
+// Navigation--------------------------------------------
+
+function navToNorth() {
+  window.location.href = "North_india_web/north_india.html";
+}

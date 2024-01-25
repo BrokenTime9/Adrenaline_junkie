@@ -26,7 +26,9 @@
   border-radius: 3%;
   transition: all 0.5s;
 }
-
+.item {
+  /* box-shadow: rgba(0, 0, 0, 0.7) 0px -150px 50px -28px inset; */
+}
 .item a {
   position: relative;
   top: 295px;
@@ -47,6 +49,8 @@
   /* background-color: rgba(255, 255, 255, 0.8); */
   padding: 7px;
   border-radius: 20px;
+  font-family: sans-serif;
+  transition: all 1s;
 }
 
 /* -------------------------------------Arrow position--------------------------------------------- */
@@ -60,8 +64,6 @@
 /* ---------------------------------Anchor Hover0--------------------------------------------- */
 
 .item a:hover {
-  transition-property: background-color, color;
-  transition-duration: 1s;
   background-color: rgba(255, 255, 255, 0.6);
   color: black;
   opacity: 1;
@@ -101,5 +103,6 @@
 /* ---------------------------------------------card hover blackening effect----------------------------------------- */
 
 .item:hover {
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px,
+    rgba(0, 0, 0, 0.7) 0px -120px 50px -35px inset;
 }
