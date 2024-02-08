@@ -31,5 +31,5 @@ opacityElements.forEach((el) => observerOpacity.observe(el));
 // Navigation--------------------------------------------
 
 function navToNorth() {
-  window.location.href = "North_india_web/north_india.html";
+  window.location.href = "North_india_web/northStates.html";
 }
