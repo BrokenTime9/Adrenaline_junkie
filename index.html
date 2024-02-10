@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="stylesheet.css" />
-    <link rel="stylesheet" href="image.css" />
-    <link rel="stylesheet" href="navbar.css" />
-    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="/Adrenaline_junkie/styles/stylesheet.css" />
+    <link rel="stylesheet" href="/Adrenaline_junkie/styles/image.css" />
+    <link rel="stylesheet" href="/Adrenaline_junkie/styles/navbar.css" />
+    <link rel="stylesheet" href="/Adrenaline_junkie/styles/card.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -15,7 +15,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script defer src="app.js"></script>
+
+    <script defer type="module" src="/Adrenaline_junkie/src/app.js"></script>
+    <script
+      defer
+      type="module"
+      src="/Adrenaline_junkie/states/src/objects.js"
+    ></script>
   </head>
   <body>
     <div class="main">
@@ -44,19 +50,19 @@
     <div class="card">
       <h1 class="hidden">Discover India with <br />Adrenaline Junkie</h1>
       <div class="cards">
-        <div class="item north-india hidden" onclick="navToNorth()">
+        <div class="item north-india hidden" id="north-india">
           <p>North India</p>
           <a>Explore<i class="fa-solid fa-arrow-right-long"></i></a>
         </div>
-        <div class="item south-india hidden">
+        <div class="item south-india hidden" id="south-india">
           <p>South India</p>
           <a href="#">Explore<i class="fa-solid fa-arrow-right-long"></i></a>
         </div>
-        <div class="item east-india hidden">
+        <div class="item east-india hidden" id="east-india">
           <p>East India</p>
           <a href="#">Explore<i class="fa-solid fa-arrow-right-long"></i></a>
         </div>
-        <div class="item west-india hidden">
+        <div class="item west-india hidden" id="west-india">
           <p>West India</p>
           <a href="#">Explore<i class="fa-solid fa-arrow-right-long"></i></a>
         </div>

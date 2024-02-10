@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: rethink-semibold;
+  src: url(/Adrenaline_junkie/fonts/rethink-sans/ttf/RethinkSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: rounded-corners;
+  src: url(/Adrenaline_junkie/fonts/unageo/fonts/ttf/Unageo-Semibold.ttf);
+}
+@font-face {
+  font-family: iceland;
+  src: url(/Adrenaline_junkie/fonts/iceland/Iceland-Regular.ttf);
+}
+/* --------------------------background-text------------------------------------ */
+
+#heroSectionDesc h1 {
+  position: absolute;
+  max-width: 400px;
+  font-family: rethink-semibold, sans-serif;
+  color: white;
+  font: 20px;
+
+  left: 12%;
+  top: 25%;
+}
+#heroSectionDesc p {
+  position: absolute;
+  font-family: rethink-regular, sans-serif;
+  max-width: 700px;
+  color: white;
+
+  left: 12%;
+  top: 32%;
+}
+
+#logo {
+  position: absolute;
+  top: 4%;
+  left: 4%;
+  color: white;
+  font-family: iceland;
+  font-weight: 100;
+  /* font-size: 20px; */
+  cursor: pointer;
+}
+
+.hamburger {
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+/* -------------------------------------------------state card---------------------------------------------*/
+
+.hero-section {
+  height: 85vh;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+}
+
+.states {
+  display: flex;
+  gap: 20px;
+}
+.card {
+  background-position: center;
+  background-size: cover;
+  border-radius: 4%;
+  position: absolute;
+}
+
+#card1 {
+  height: 400px;
+  width: 300px;
+
+  left: 50%;
+  top: 20%;
+  z-index: 7;
+}
+
+#card2 {
+  height: 380px;
+  width: 280px;
+
+  left: 55%;
+  top: 21%;
+  z-index: 6;
+}
+
+#card3 {
+  height: 360px;
+  width: 260px;
+
+  left: 60%;
+  top: 22%;
+  z-index: 5;
+}
+
+#card4 {
+  height: 340px;
+  width: 240px;
+
+  left: 65%;
+  top: 23%;
+  z-index: 4;
+}
+
+#card5 {
+  height: 320px;
+  width: 220px;
+
+  left: 70%;
+  top: 24%;
+  z-index: 3;
+}
+
+#card6 {
+  height: 300px;
+  width: 200px;
+
+  left: 75%;
+  top: 25%;
+  z-index: 2;
+}
+
+#card7 {
+  height: 280px;
+  width: 180px;
+
+  left: 80%;
+  top: 26%;
+  z-index: 1;
+}
+
+/* -----------------------------------------Buttons-------------------------------------------------------------- */
+
+button {
+  border: none;
+  color: gray;
+  background-color: white;
+  font-family: rethink-semibold;
+
+  width: 180px;
+  margin-top: 10px;
+  font-size: 18px;
+  transition: all 1s;
+
+  box-sizing: content-box !important;
+  height: 40px;
+  padding-left: 20px;
+}
+
+/* -----------------------------------------hover------------------------------------------------------------------ */
+
+button:hover {
+  color: black;
+  border-bottom: 1px solid gray;
+}
