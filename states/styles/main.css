@@ -48,7 +48,7 @@
   /* font-size: 20px; */
   cursor: pointer;
 }
-
+/* -------------------------------------------------Hamburger-------------------------------------------- */
 .hamburger {
   position: absolute;
   top: 4%;
@@ -56,6 +56,84 @@
   color: white;
   font-family: sans-serif;
   font-size: 16px;
+}
+.hamburger-icon {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  top: 4%;
+  right: 4%;
+  z-index: 1000;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  background: rgba(255, 255, 255, 0.2);
+  /* // background: green;
+  // width: auto;
+  // height: 50px;
+  // overflow: hidden;
+  &:hover {
+    // .icon-1 {
+    //   transform: rotate(40deg);
+    // },
+    // .icon-3 {
+    //   transform: rotate(-40deg);
+    // }
+    // .icon-2 {
+    //   opacity: 0;
+    // }
+    transform: scale(1.2);
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
+  } */
+}
+
+.hamburger-icon:hover {
+  /* // .icon-1 {
+  //   transform: rotate(40deg);
+  // }
+  // .icon-3 {
+  //   transform: rotate(-40deg);
+  // }
+  // .icon-2 {
+  //   opacity: 0;
+  // } */
+  transform: scale(1.2);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+.icon-1,
+.icon-2,
+.icon-3 {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  transition: all 400ms cubic-bezier(0.84, 0.06, 0.52, 1.8);
+}
+.icon-1 {
+  transform: translateY(-8px);
+  animation-delay: 100ms;
+}
+
+.icon-3 {
+  transform: translateY(8px);
+  animation-delay: 250ms;
+}
+
+.icon-1.a {
+  transform: rotate(40deg);
+}
+.icon-3.b {
+  transform: rotate(-40deg);
+}
+.icon-2.c {
+  opacity: 0;
+}
+
+.clear {
+  clear: both;
 }
 
 /* -------------------------------------------------state card---------------------------------------------*/

@@ -2,7 +2,7 @@ export const cards = {
   Rajasthan: {
     id: "state-1",
     heading: "Rajasthan",
-    para: "Rajasthan, meaning “The Abode of the Rajas,”<br> was formerly called Rajputana,<br> “The Country of the Rajputs” <br>Most of Rajasthans population consists of Indians of<br> various social,<br>occupational, and religious backgrounds. <br>The Rajputs (various clans of landowning rulers and their descendants).",
+    para: "Rajasthan, meaning “The Abode of the Rajas,”<br> was formerly called Rajputana,<br> “The Country of the Rajputs” <br>Most of Rajasthans population consists of Indians of<br> various social occupational, and religious backgrounds. <br>The Rajputs (various clans of landowning rulers and their descendants).",
     back_image:
       "linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),url(Images/rajasthan.jpg)",
     card_image: "url(Images/rajasthan.jpg)",
