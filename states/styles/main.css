@@ -125,7 +125,7 @@
   opacity: 1;
 }
 nav {
-  background: gray;
+  background: black;
   position: absolute;
   top: 0;
   left: 0;
@@ -164,7 +164,6 @@ nav ul:nth-child(4) {
 }
 
 nav ul li:nth-child(1) {
-  color: black;
   font-size: 32px;
 }
 
