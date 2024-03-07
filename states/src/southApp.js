@@ -32,11 +32,11 @@ function changeState(state) {
       Object.values(heroCards[parsedState])[i]["id"],
     ]}" class="info-cards"><img src="${[
       Object.values(heroCards[parsedState])[i]["image"],
-    ]}" alt="#" style="width:100%" ><div class="info-cards-desc"><h1>${[
+    ]}" alt="#" style="width:100%; height:50%;" ><div class="info-cards-desc"><h1 class="info-cards-h">${[
       Object.values(heroCards[parsedState])[i]["heading"],
-    ]}</h1><p>${[
+    ]}</h1><p class="info-cards-p">${[
       Object.values(heroCards[parsedState])[i]["p"],
-    ]}</p><p class="book">Book now</p><hr></div>
+    ]}</p><p class="book">Book now <i class="fa-solid fa-arrow-right-long"></i></p><hr></div>
     </li>`;
   }
 }

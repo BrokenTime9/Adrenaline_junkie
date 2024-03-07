@@ -333,7 +333,7 @@ button:hover {
 }
 
 .info-cards-desc {
-  text-align: center;
+  text-align: left;
   padding: 10px 20px;
 }
 
@@ -342,23 +342,25 @@ button:hover {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
+  text-align: left;
 }
 
-#sport h1 {
-  position: relative;
-  right: 80px;
+.info-cards-h {
 }
 
-#sport p:nth-child(2) {
+.info-cards-p {
   position: relative;
   top: 20px;
-  right: 80px;
 }
 
 .book {
   position: relative;
-  top: 55px;
-  right: 80px;
+  top: 65px;
+}
+.book i {
+  position: relative;
+  left: 150px;
+  top: 3px;
 }
 
 .info-cards-desc hr {
