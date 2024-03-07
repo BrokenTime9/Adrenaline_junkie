@@ -1,9 +1,10 @@
 import { cards } from "./southObjects.js";
-
+import { heroCards } from "./southObjects.js";
 const heroSection = document.getElementById("hero-section");
 const stateBtn = document.getElementsByClassName("state-btn");
 const cardElems = document.getElementsByClassName("card");
 const logoElem = document.getElementById("logo");
+const heroCard = document.getElementById("hero-card");
 console.log(stateBtn);
 
 const heroSectionDesc = document.getElementById("heroSectionDesc");
@@ -23,6 +24,21 @@ function changeState(state) {
   heroSectionDesc.innerHTML = innerHTML;
 
   heroSection.style.backgroundImage = cards[parsedState].back_image;
+
+  heroCard.innerHTML = "";
+
+  for (let i = 0; i < Object.keys(heroCards[parsedState]).length; i++) {
+    heroCard.innerHTML += `<li id = "${[
+      Object.values(heroCards[parsedState])[i]["id"],
+    ]}" class="info-cards"><img src="${[
+      Object.values(heroCards[parsedState])[i]["image"],
+    ]}" alt="#" style="width:100%" ><div class="info-cards-desc"><h1>${[
+      Object.values(heroCards[parsedState])[i]["heading"],
+    ]}</h1><p>${[
+      Object.values(heroCards[parsedState])[i]["p"],
+    ]}</p><p class="book">Book now</p><hr></div>
+    </li>`;
+  }
 }
 
 changeState("Maharashtra");
@@ -66,7 +82,7 @@ for (let i = 0; i < cardElems.length; i++) {
     }
   };
 }
-// --------------- Hamburgere Animation--------------------
+// --------------- Hamburger Animation--------------------
 var icon = document.getElementById("icon");
 var icon1 = document.getElementById("a");
 var icon2 = document.getElementById("b");
@@ -81,3 +97,9 @@ icon.addEventListener("click", function () {
   nav.classList.toggle("show");
   blue.classList.toggle("slide");
 });
+
+// ---------------- hero card------------------------------
+
+console.log(Object.keys(heroCards["Maharashtra"]));
+// console.log(heroCards["Maharashtra"][0].heading);
+console.log([Object.values(heroCards["Maharashtra"])[0]["heading"]]); //veryyyyyyy imppppp madafaqa

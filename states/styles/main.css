@@ -33,6 +33,7 @@
 #heroSectionDesc p {
   position: absolute;
   font-family: rethink-regular, sans-serif;
+  font-size: 32px;
   max-width: 700px;
   color: white;
 
@@ -77,7 +78,7 @@
 .icon-2,
 .icon-3 {
   position: absolute;
-  left: 19%;
+  left: 18%;
   top: 48%;
   width: 18px;
   height: 1.6px;
@@ -193,10 +194,6 @@ nav.show {
   background-position: center;
 }
 
-.states {
-  display: flex;
-  gap: 20px;
-}
 .card {
   background-position: center;
   background-size: cover;
@@ -267,7 +264,7 @@ nav.show {
   z-index: 1;
 }
 
-/* -----------------------------------------Buttons-------------------------------------------------------------- */
+/* -----------------------------------------Buttons---------------------------------------------------- */
 
 button {
   border: none;
@@ -277,17 +274,94 @@ button {
 
   width: 180px;
   margin-top: 10px;
+
   font-size: 18px;
   transition: all 1s;
 
   box-sizing: content-box !important;
   height: 40px;
-  padding-left: 20px;
+
+  padding-left: 30px;
 }
 
-/* -----------------------------------------hover------------------------------------------------------------------ */
+.states {
+  display: inline-block;
+}
+
+/* -----------------------------------------hover------------------------------------------------------ */
 
 button:hover {
   color: black;
   border-bottom: 1px solid gray;
+}
+
+/* ----------------------------------------hero cards---------------------------------------------- */
+
+#heroCard {
+  width: 50px;
+  height: 80px;
+  color: black;
+}
+
+/* ---------------------------------------info-cards------------------------------------------------ */
+.info-page {
+}
+#hero-card {
+  display: flex;
+  padding-top: 80px;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+.info-cards {
+  flex: 1 0 calc(20% - 10px);
+  max-width: calc(20% - 20px);
+  height: 350px;
+
+  border-radius: 4px;
+
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  /* width: 200px;
+  height: 300px; */
+  background-color: gray;
+}
+
+#hero-card li {
+  list-style: none;
+}
+
+.info-cards-desc {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.info-cards {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+#sport h1 {
+  position: relative;
+  right: 80px;
+}
+
+#sport p:nth-child(2) {
+  position: relative;
+  top: 20px;
+  right: 80px;
+}
+
+.book {
+  position: relative;
+  top: 55px;
+  right: 80px;
+}
+
+.info-cards-desc hr {
+  position: relative;
+  top: 28px;
 }

@@ -56,3 +56,50 @@ export const cards = {
     card_image: "url(Images/goa.jpg)",
   },
 };
+
+export const heroCards = {
+  Maharashtra: {
+    Skiing1: {
+      id: "sport",
+      heading: "Skiing",
+      p: "skiing sport",
+      image: "/Adrenaline_junkie/states/Images/sportImages/skiing.jpg",
+      price: "2000",
+    },
+    Skiing2: {
+      id: "sport",
+      heading: "skiing",
+      p: "skiing sport",
+      image: "/Adrenaline_junkie/states/Images/sportImages/skiing2.jpg",
+      price: "3000",
+    },
+    paragliding1: {
+      id: "sport",
+      heading: "para",
+      p: "para sport",
+      image: "/Adrenaline_junkie/states/Images/sportImages/paragliding.jpg",
+      price: "4000",
+    },
+    paragliding2: {
+      id: "sport",
+      heading: "para",
+      p: "para sport",
+      image: "/Adrenaline_junkie/states/Images/sportImages/paragliding2.jpg",
+      price: "5000",
+    },
+    rockclimbing1: {
+      id: "sport",
+      heading: "rock climbing",
+      p: "rock sport",
+      image: "/Adrenaline_junkie/states/Images/sportImages/rockclimbing.jpg",
+      price: "6000",
+    },
+    rockclimbing2: {
+      id: "sport",
+      heading: "rock climbing",
+      p: "rock sport",
+      image: "/Adrenaline_junkie/states/Images/sportImages/rockclimbing2.jpg",
+      price: "7000",
+    },
+  },
+};
