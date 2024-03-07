@@ -19,7 +19,7 @@ function changeState(state) {
   const parsedState = state.replace(" ", "");
   const innerHTML = `
     <h1 style="font-family: rounded-corners; font-size: 40px;">${cards[parsedState].heading}</h1>
-    <p style="font-family: rethink-semibold; font-size:22px; margin-top:20px; margin-right:40px;">${cards[parsedState].para}</p>
+    <p style="font-family: rethink-regular; font-size:22px;">${cards[parsedState].para}</p>
     `;
   heroSectionDesc.innerHTML = innerHTML;
 
@@ -32,7 +32,7 @@ function changeState(state) {
       Object.values(heroCards[parsedState])[i]["id"],
     ]}" class="info-cards"><img src="${[
       Object.values(heroCards[parsedState])[i]["image"],
-    ]}" alt="#" style="width:100%; height:50%;" ><div class="info-cards-desc"><h1 class="info-cards-h">${[
+    ]}" alt="#" style="width:100%; height:55%;" class="info-cards-image" ><div class="info-cards-desc"><h1 class="info-cards-h">${[
       Object.values(heroCards[parsedState])[i]["heading"],
     ]}</h1><p class="info-cards-p">${[
       Object.values(heroCards[parsedState])[i]["p"],
@@ -103,3 +103,22 @@ icon.addEventListener("click", function () {
 console.log(Object.keys(heroCards["Maharashtra"]));
 // console.log(heroCards["Maharashtra"][0].heading);
 console.log([Object.values(heroCards["Maharashtra"])[0]["heading"]]); //veryyyyyyy imppppp madafaqa
+
+// ---------------------------------------Mouse hover over card
+
+const test = document.querySelectorAll(".info-cards");
+
+test.forEach((currentCard) => {
+  const imgElement = currentCard.querySelector(".info-cards-image");
+
+  currentCard.addEventListener("mouseenter", () => {
+    // Scale up the image on mouseenter
+    imgElement.style.transform = "scale(1.1)";
+    imgElement.style.height = "55%";
+  });
+
+  currentCard.addEventListener("mouseleave", () => {
+    // Reset the scale on mouseleave
+    imgElement.style.transform = "scale(1)";
+  });
+});

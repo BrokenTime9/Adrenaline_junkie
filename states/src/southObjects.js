@@ -61,15 +61,14 @@ export const heroCards = {
   Maharashtra: {
     Skiing1: {
       id: "sport",
-      heading: "Skiing",
-      p: "skiing sport",
+      heading: "Paragliding",
+      p: "Paragliding at Kamshet",
       image: "/Adrenaline_junkie/states/Images/sportImages/skiing.jpg",
-      price: "2000",
     },
     Skiing2: {
       id: "sport",
-      heading: "Skiing",
-      p: "skiing sport",
+      heading: "White water Rafting",
+      p: "White Water Rafting at Kundalika",
       image: "/Adrenaline_junkie/states/Images/sportImages/skiing2.jpg",
       price: "3000",
     },

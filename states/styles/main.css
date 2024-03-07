@@ -10,6 +10,11 @@
   font-family: rethink-semibold;
   src: url(/Adrenaline_junkie/fonts/rethink-sans/ttf/RethinkSans-SemiBold.ttf);
 }
+
+@font-face {
+  font-family: rethink-regular;
+  src: url(/Adrenaline_junkie/fonts/rethink-sans/ttf/RethinkSans-Regular.ttf);
+}
 @font-face {
   font-family: rounded-corners;
   src: url(/Adrenaline_junkie/fonts/unageo/fonts/ttf/Unageo-Semibold.ttf);
@@ -22,7 +27,7 @@
 
 #heroSectionDesc h1 {
   position: absolute;
-  max-width: 400px;
+  max-width: 700px;
   font-family: rethink-semibold, sans-serif;
   color: white;
   font: 20px;
@@ -44,7 +49,7 @@
 #logo {
   position: absolute;
   top: 4%;
-  left: 4%;
+  left: 4.5%;
   color: white;
   font-family: iceland;
   font-weight: 100;
@@ -185,6 +190,15 @@ nav.show {
 
   opacity: 1;
 }
+/* -------------------------------------------------hero-section-desc------------------------------------- */
+#heroSectionDesc h1,
+#heroSectionDesc p {
+  position: relative;
+  right: 200px;
+  top: 250px;
+
+  /* backdrop-filter: blur(4px); */
+}
 /* -------------------------------------------------state card---------------------------------------------*/
 
 .hero-section {
@@ -304,7 +318,11 @@ button:hover {
 }
 
 /* ---------------------------------------info-cards------------------------------------------------ */
-.info-page {
+.info-cards-image {
+  transition: 2s all;
+}
+.info-cards:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 #hero-card {
   display: flex;
@@ -343,19 +361,28 @@ button:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
   text-align: left;
+  overflow: hidden;
+  transition: all 2s;
 }
+/* .info-cards:hover {
+  scale: 105%;
+} */
 
 .info-cards-h {
+  font-size: 24px;
+  font-family: iceland;
 }
 
 .info-cards-p {
   position: relative;
   top: 20px;
+  font-family: iceland;
 }
 
 .book {
   position: relative;
   top: 65px;
+  font-family: iceland;
 }
 .book i {
   position: relative;
@@ -366,4 +393,5 @@ button:hover {
 .info-cards-desc hr {
   position: relative;
   top: 28px;
+  font-family: iceland;
 }
